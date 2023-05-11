@@ -1,0 +1,86 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+{% block title %}HOME{% endblock %}
+
+{% block content %}
+    <link rel="stylesheet" href="{% static 'foodie_app/styles.css' %}">
+    <h1>Rate Your Favorite Ramen</h1>
+
+    <nav>
+        <ul>
+          <li>
+            <a href="{% url 'shoyu' %}">Shoyu Ramen</a>
+            <div class="image-container">
+                <img src="{% static 'foodie_app/images/rice_ball.png' %}" alt="Image1">
+                <img src="{% static 'foodie_app/images/rice_ball.png' %}" alt="Image2">
+                <img src="{% static 'foodie_app/images/rice_ball.png' %}" alt="Image3">
+            </div>
+          </li>
+
+          <li>
+            <a href="{% url 'miso' %}">Miso Ramen</a>
+            <div class="image-container">
+                <img src="{% static 'foodie_app/images/rice_ball.png' %}" alt="Image4">
+                <img src="{% static 'foodie_app/images/rice_ball.png' %}" alt="Image5">
+                <img src="{% static 'foodie_app/images/rice_ball.png' %}" alt="Image6">
+            </div>
+          </li>
+
+          <li>
+            <a href="{% url 'tonkotsu' %}">Tonkotsu Ramen</a>
+            <div class="image-container">
+                <img src="{% static 'foodie_app/images/rice_ball.png' %}" alt="Image7">
+                <img src="{% static 'foodie_app/images/rice_ball.png' %}" alt="Image8">
+                <img src="{% static 'foodie_app/images/rice_ball.png' %}" alt="Image9">
+            </div>
+          </li>
+          
+          <li>
+            <a href="{% url 'recently_added' %}">Recently Added</a>
+            <div class="image-container">
+                <img src="{% static 'foodie_app/images/rice_ball.png' %}" alt="Image7">
+                <img src="{% static 'foodie_app/images/rice_ball.png' %}" alt="Image8">
+                <img src="{% static 'foodie_app/images/rice_ball.png' %}" alt="Image9">
+            </div>
+          </li>
+
+          <li>
+            <a href="{% url 'top_rated' %}">Top Rated</a>
+            <div class="image-container">
+                <img src="{% static 'foodie_app/images/rice_ball.png' %}" alt="Image7">
+                <img src="{% static 'foodie_app/images/rice_ball.png' %}" alt="Image8">
+                <img src="{% static 'foodie_app/images/rice_ball.png' %}" alt="Image9">
+            </div>
+          </li>
+
+          <li>
+            <div class="form-container">
+                <h2>Add a new Ramen</h2>
+                <form action="{% url 'submit_ramen' %}" method="post">
+                    {% csrf_token %}
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="description">Description:</label>
+                    <textarea id="description" name="description" required></textarea>
+                    <label for="shop">Shop:</label>
+                    <input type="text" id="shop" name="shop" required>
+                    <label for="address">Address:</label>
+                    <input type="text" id="address" name="address" required>
+                    <label for="typical_meal_time">Typical Meal Time:</label>
+                    <select id="typical_meal_time" name="typical_meal_time" required>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                    </select>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </li>
+
+        </ul>
+      </nav>
+
+
+{% endblock %}

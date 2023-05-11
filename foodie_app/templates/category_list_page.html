@@ -1,0 +1,19 @@
+{% extends 'base2.html' %}
+{% load static %}
+
+
+{% block title %}
+    {{ page.title }}
+{% endblock %}
+
+{% block content %}
+    <link rel="stylesheet" href="{% static 'foodie_app/styles.css' %}">
+    <h1>{{ ramen.category }} </h1>
+
+    <li>        
+        <div class="image-container">
+            <img src="{% static 'foodie_app/images/rice_ball.png' %}" alt="Image1">
+        </div>
+        <p>{{ ramen.name }}, </p>
+    </li>
+

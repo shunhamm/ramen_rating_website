@@ -1,0 +1,430 @@
+[
+	{
+		"model": "foodie_app.Ramen",
+		"pk":1, 
+		"fields" : 
+			{
+				"name": "Toast with Egg",
+				"description": "Toast with sunnyside up egg",
+				"imageUrl": "1.jpeg",
+				"ramenType": "1",
+                            "shop": "England",
+                            "address": "Tokyo",
+				"typicalMealTime":1,
+				"dateAdded": "2011-05-05T02:12:01+00:00"	
+			}
+	},
+	{
+		"model": "foodie_app.Ramen",
+		"pk":2, 
+		"fields" : 
+			{
+				"name": "Belgian Waffle",
+				"description": "Belgian waffle with blueberries and strawberries",
+				"imageUrl": "2.jpeg",
+				"ramenType": "1",
+                            "shop": "Belgium",
+                            "address": "Tokyo",
+				"typicalMealTime":1,
+				"dateAdded": "2013-11-22T20:27:23+00:00"	
+			}
+	},
+	{
+		"model": "foodie_app.Ramen",
+		"pk":3, 
+		"fields" : 
+			{
+				"name": "Pancakes",
+				"description": "Pancakes with blueberries and tangerines",
+				"imageUrl": "3.jpeg",
+				"ramenType": "1",
+                            "shop": "Greece",
+                            "address": "Tokyo",
+                            "typicalMealTime": 1,
+				"dateAdded": "2011-09-10T19:00:48+00:00"
+			}
+	},
+	{
+		"model": "foodie_app.Ramen",
+		"pk":4, 
+		"fields" : 
+			{
+				"name": "Minimal Toast",
+				"description": "Toast and Coffee",
+				"imageUrl": "4.jpeg",
+				"ramenType": "1",
+                            "shop": "USA",
+                            "address": "Tokyo",       
+                            "typicalMealTime": 1,
+				"dateAdded": "2017-01-06T00:30:18+00:00"	
+			}
+	},
+	{
+		"model": "foodie_app.Ramen",
+		"pk":5, 
+		"fields" : 
+			{
+				"name": "Cereal",
+				"description": "Cereal with Milk",
+				"imageUrl": "5.jpeg",
+				"ramenType": "1",
+                            "shop": "USA",
+			       "address": "Tokyo",
+                            "typicalMealTime": 1,
+				"dateAdded": "2016-05-04T10:16:02+00:00"	
+			}
+	},
+	{
+		"model": "foodie_app.Ramen",
+		"pk":6, 
+		"fields" : 
+			{
+				"name": "Croissant",
+				"description": "Croissant with orange juice and coffee",
+				"imageUrl": "6.jpeg",
+				"ramenType": "1",
+                            "shop": "France",
+                            "address": "Tokyo",                            
+                            "typicalMealTime": 1,
+				"dateAdded": "2011-02-24T12:54:39+00:00"	
+			}
+	},
+	{
+		"model": "foodie_app.Ramen",
+		"pk":7, 
+		"fields" : 
+			{
+				"name": "Chicken Vegetable Bowl",
+				"description": "Roasted chicken, beans, eggs, corn, tomatoes",
+				"imageUrl": "7.jpeg",
+				"ramenType": "1",
+                            "shop": "Morocco",
+                            "address": "Tokyo",
+				"typicalMealTime": 2,
+				"dateAdded": "2011-10-11T15:13:25+00:00"	
+			}
+	},
+	{
+		"model": "foodie_app.Ramen",
+		"pk":8, 
+		"fields" : 
+			{
+				"name": "Qutab",
+				"description": "thinly rolled dough that is cooked briefly on a saj",
+				"imageUrl": "8.jpeg",
+				"ramenType": "1",
+                            "shop": "Azerbaija",
+                            "address": "Tokyo",
+				"typicalMealTime": 2,
+				"dateAdded": "2010-03-10T12:28:09+00:00"	
+			}
+	},
+	{
+		"model": "foodie_app.Ramen",
+		"pk":9, 
+		"fields" : 
+			{
+				"name": "Tuna Burger",
+				"description": "Burger with bread and patties made from tuna",
+				"imageUrl": "9.jpeg",
+				"ramenType": "1",
+                            "shop": "USA",
+			       "address": "Tokyo",       
+                            "typicalMealTime": 2,
+				"dateAdded": "2015-07-13T07:12:58+00:00"
+					
+			}
+	},
+	{
+		"model": "foodie_app.Ramen",
+		"pk":10, 
+		"fields" : 
+			{
+				"name": "Baguette Sandwich",
+				"description": "Baguette with turkey, tomato, swiss cheese",
+				"imageUrl": "10.jpeg",
+				"ramenType": "1",
+                            "shop": "France",
+                            "address": "Tokyo",                            
+                            "typicalMealTime": 2,
+				"dateAdded": "2011-09-10T19:00:48+00:00"	
+			}
+	},
+	{
+		"model": "foodie_app.Ramen",
+		"pk":11, 
+		"fields" : 
+			{
+				"name": "Roasted Fish and Couscous",
+				"description": "Roasted fish and couscous with broccoli and lemon",
+				"imageUrl": "11.jpeg",
+				"ramenType": "1",
+                            "shop": "Algeria",
+                            "address": "Tokyo",
+				"typicalMealTime": 2,
+				"dateAdded": "2014-07-25T13:36:42+00:00"	
+			}
+	},
+	{
+		"model": "foodie_app.Ramen",
+		"pk":12, 
+		"fields" : 
+			{
+				"name": "Quinoa vegetarian bowl",
+				"description": "Qunoia, carrots, corn, radish, and kale",
+				"imageUrl": "12.jpeg",
+				"ramenType": "1",
+                            "shop": "Chile",
+	                     "address": "Tokyo",                     
+                            "typicalMealTime": 2,
+				"dateAdded": "2010-03-10T12:28:09+00:00"	
+			}
+	},
+	{
+		"model": "foodie_app.Ramen",
+		"pk":13, 
+		"fields" : 
+			{
+				"name": "Tacos",
+				"description": "Ground beef and avocado tacos",
+				"imageUrl": "13.jpeg",
+				"ramenType": "1",
+                            "shop": "Mexico",
+                            "address": "Tokyo",                            
+                            "typicalMealTime": 3,
+				"dateAdded": "2018-09-08T15:02:53+00:00"	
+			}
+	},
+	{
+	      "model": "foodie_app.MealRating",
+              "fields": {
+                     "ramen": 1,
+                     "rating": 4.99,
+                     "dateOfRating": "2017-11-23T16:51:41+00:00"
+              }
+       },
+       {
+              "model": "foodie_app.MealRating",
+              "fields": {
+                     "ramen": 1,
+                     "rating": 1.02,
+                     "dateOfRating": "2010-09-22T03:06:16+00:00"
+              }
+       },
+       {
+              "model": "foodie_app.MealRating",
+              "fields": {
+                     "ramen": 1,
+                     "rating": 1.86,
+                     "dateOfRating": "2015-11-02T18:10:22+00:00"
+              }
+       },
+       {
+              "model": "foodie_app.MealRating",
+              "fields": {
+                     "ramen": 1,
+                     "rating": 4.42,
+                     "dateOfRating": "2018-04-09T21:07:22+00:00"
+              }
+       },
+       {
+              "model": "foodie_app.MealRating",
+              "fields": {
+                     "ramen": 2,
+                     "rating": 2.88,
+                     "dateOfRating": "2018-09-08T15:02:53+00:00"
+              }
+       },
+       {
+              "model": "foodie_app.MealRating",
+              "fields": {
+                     "ramen": 2,
+                     "rating": 3.95,
+                     "dateOfRating": "2016-11-14T11:35:54+00:00"
+              }
+       },
+       {
+              "model": "foodie_app.MealRating",
+              "fields": {
+                     "ramen": 2,
+                     "rating": 4.51,
+                     "dateOfRating": "2015-07-13T07:12:58+00:00"
+              }
+       },
+       {
+              "model": "foodie_app.MealRating",
+              "fields": {
+                     "ramen": 2,
+                     "rating": 1.6,
+                     "dateOfRating": "2010-01-25T20:31:17+00:00"
+              }
+       },
+       {
+              "model": "foodie_app.MealRating",
+              "fields": {
+                     "ramen": 3,
+                     "rating": 2.05,
+                     "dateOfRating": "2010-04-24T17:18:15+00:00"
+              }
+       },
+       {
+              "model": "foodie_app.MealRating",
+              "fields": {
+                     "ramen": 3,
+                     "rating": 0.26,
+                     "dateOfRating": "2015-09-03T03:08:53+00:00"
+              }
+       },
+       {
+              "model": "foodie_app.MealRating",
+              "fields": {
+                     "ramen": 3,
+                     "rating": 2.09,
+                     "dateOfRating": "2018-10-07T18:43:39+00:00"
+              }
+       },
+       {
+              "model": "foodie_app.MealRating",
+              "fields": {
+                     "ramen": 3,
+                     "rating": 3.88,
+                     "dateOfRating": "2019-03-19T06:25:09+00:00"
+              }
+       },
+       {
+              "model": "foodie_app.MealRating",
+              "fields": {
+                     "ramen": 4,
+                     "rating": 4.32,
+                     "dateOfRating": "2018-11-16T12:03:39+00:00"
+              }
+       },
+       {
+              "model": "foodie_app.MealRating",
+              "fields": {
+                     "ramen": 4,
+                     "rating": 1.31,
+                     "dateOfRating": "2019-11-20T20:46:25+00:00"
+              }
+       },
+       {
+              "model": "foodie_app.MealRating",
+              "fields": {
+                     "ramen": 4,
+                     "rating": 4.59,
+                     "dateOfRating": "2020-12-28T04:40:25+00:00"
+              }
+       },
+       {
+              "model": "foodie_app.MealRating",
+              "fields": {
+                     "ramen": 4,
+                     "rating": 4.01,
+                     "dateOfRating": "2011-05-05T02:12:01+00:00"
+              }
+       },
+       {
+              "model": "foodie_app.MealRating",
+              "fields": {
+                     "ramen": 5,
+                     "rating": 0.71,
+                     "dateOfRating": "2014-08-22T15:30:01+00:00"
+              }
+       },
+       {
+              "model": "foodie_app.MealRating",
+              "fields": {
+                     "ramen": 5,
+                     "rating": 1.0,
+                     "dateOfRating": "2011-05-03T03:45:23+00:00"
+              }
+       },
+       {
+              "model": "foodie_app.MealRating",
+              "fields": {
+                     "ramen": 5,
+                     "rating": 0.66,
+                     "dateOfRating": "2016-10-13T18:54:48+00:00"
+              }
+       },
+       {
+              "model": "foodie_app.MealRating",
+              "fields": {
+                     "ramen": 5,
+                     "rating": 1.34,
+                     "dateOfRating": "2016-04-04T01:08:42+00:00"
+              }
+       },
+       {
+              "model": "foodie_app.MealRating",
+              "fields": {
+                     "ramen": 6,
+                     "rating": 4.63,
+                     "dateOfRating": "2013-11-22T20:27:23+00:00"
+              }
+       },
+       {
+              "model": "foodie_app.MealRating",
+              "fields": {
+                     "ramen": 6,
+                     "rating": 0.63,
+                     "dateOfRating": "2012-05-18T02:47:29+00:00"
+              }
+       },
+       {
+              "model": "foodie_app.MealRating",
+              "fields": {
+                     "ramen": 6,
+                     "rating": 4.06,
+                     "dateOfRating": "2021-04-03T22:10:48+00:00"
+              }
+       },
+       {
+              "model": "foodie_app.MealRating",
+              "fields": {
+                     "ramen": 6,
+                     "rating": 0.59,
+                     "dateOfRating": "2016-12-14T15:30:41+00:00"
+              }
+       },
+       {
+              "model": "foodie_app.MealRating",
+              "fields": {
+                     "ramen": 7,
+                     "rating": 3.23,
+                     "dateOfRating": "2013-02-15T15:29:16+00:00"
+              }
+       },
+       {
+              "model": "foodie_app.MealRating",
+              "fields": {
+                     "ramen": 7,
+                     "rating": 1.75,
+                     "dateOfRating": "2016-01-14T05:29:28+00:00"
+              }
+       },
+       {
+              "model": "foodie_app.MealRating",
+              "fields": {
+                     "ramen": 7,
+                     "rating": 2.88,
+                     "dateOfRating": "2013-12-26T07:48:08+00:00"
+              }
+       },
+       {
+              "model": "foodie_app.MealRating",
+              "fields": {
+                     "ramen": 7,
+                     "rating": 0.37,
+                     "dateOfRating": "2018-04-21T07:04:18+00:00"
+              }
+       },
+       {
+              "model": "foodie_app.MealRating",
+              "fields": {
+                     "ramen": 8,
+                     "rating": 4.04,
+                     "dateOfRating": "2010-08-16T22:16:55+00:00"
+              }
+       }
+]

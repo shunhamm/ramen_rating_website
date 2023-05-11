@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+
+{% block header %}
+
+  <nav>
+    <ul>
+      <li>
+        <a href="{% url 'home' %}">Home</a>
+      </li>
+
+      <li>
+        <a href="{% url 'shoyu' %}">Shoyu Ramen</a>
+      </li>
+
+      <li>
+        <a href="{% url 'miso' %}">Miso Ramen</a>
+      </li>
+
+      <li>
+        <a href="{% url 'tonkotsu' %}">Tonkotsu Ramen</a>
+      </li>
+      
+      <li>
+        <a href="{% url 'recently_added' %}">Recently Added</a>
+      </li>
+
+      <li>
+        <a href="{% url 'top_rated' %}">Top Rated</a>
+      </li>
+      
+    </ul>
+  </nav>
+{% endblock %}
