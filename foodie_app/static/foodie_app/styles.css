@@ -11,8 +11,31 @@ nav ul li {
 }
 
 .image-container img {
-  width: 70px;
-  height: 70px;
+  width: 120px;
+  height: 120px;
+  margin-top: 30px;
+}
+
+.category-list-container {
+  display: flex;
+  align-items: center;
+}
+
+.category-list-container img {
+  width: 200px;
+  height: 200px;
+  margin-top: 10px;
+  margin-right: 50px;
+  margin-left: 200px;
+}
+
+.category-list-container div {
+  display: flex;
+  flex-direction: column;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .form-container {

@@ -1,7 +1,9 @@
 from .models import Ramen
 
-def fetch_morning_foods():
-    return 
+def fetch_all_shoyu_ramen():
+    
+    ramens = Ramen.objects.all()
+    return ramens
 
 def fetch_afternoon_foods():
     return

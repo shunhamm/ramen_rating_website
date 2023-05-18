@@ -21,9 +21,8 @@ def home(request):
 
 def shoyu_ramen(request):
 
-    shoyu_ramen = utils.fetch_()
-
-    context = {'shoyu_ramen' shoyu_ramen}
+    shoyu_ramen = utils.fetch_all_shoyu_ramen()
+    context = {'ramens': shoyu_ramen[:3], 'ramen_type': shoyu_ramen[0].ramenType, }
 
     return render(request, "category_list_page.html", context)
 

@@ -9,24 +9,24 @@ class Ramen(models.Model):
     description = models.TextField()
     imageUrl = models.CharField(max_length=200)
     RAMEN_TYPE = [
-        (1, "shoyu"),
-        (2, "miso"),
-        (3, "tonkotsu")
+        ("shoyu", "Shoyu"),
+        ("miso", "Miso"),
+        ("tonkotsu", "Tonkotsu")
     ]
-    ramenType = models.IntegerField(choices=RAMEN_TYPE)
+    ramenType = models.CharField(max_length=10, choices=RAMEN_TYPE)
     shop = models.CharField(max_length=200)
     address = models.CharField(max_length=200)
     TYPICAL_MEAL_TIME = [
-        (1, "morning"),
-        (2, "afternoon"),
-        (3, "evening")
+        ("morning", "Morning"),
+        ("Afternoon", "Afternoon"),
+        ("evening", "Evening")
     ]
-    typicalMealTime = models.IntegerField(choices=TYPICAL_MEAL_TIME)
+    typicalMealTime = models.CharField(max_length=10, choices=TYPICAL_MEAL_TIME)
     dateAdded = models.DateTimeField(default=timezone.now)
     avgRating = models.FloatField(default=0)
     numberOfVotes = models.IntegerField(default=0)
 
 class MealRating(models.Model):
-    ramen = models.ForeignKey(Ramen, on_delete=models.CASCADE)
+    ramen_id = models.ForeignKey(Ramen, on_delete=models.CASCADE, default=1)
     rating = models.FloatField(validators=[MinValueValidator(0.0), MaxValueValidator(5.0)])
     dateOfRating = models.DateTimeField(default=timezone.now)

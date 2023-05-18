@@ -3,17 +3,30 @@
 
 
 {% block title %}
-    {{ page.title }}
+    {{ ramen_type }}
+{% endblock %}
+
+{% block head %}
+<link rel="stylesheet" href="{% static 'foodie_app/styles.css' %}">
 {% endblock %}
 
 {% block content %}
-    <link rel="stylesheet" href="{% static 'foodie_app/styles.css' %}">
-    <h1>{{ ramen.category }} </h1>
+    <div class="text-center">
+        <h1>{{ ramen_type }}</h1>
+    </div>
 
-    <li>        
-        <div class="image-container">
-            <img src="{% static 'foodie_app/images/rice_ball.png' %}" alt="Image1">
-        </div>
-        <p>{{ ramen.name }}, </p>
-    </li>
+    <ul>
+        {% for ramen in ramens %}  
+            <li class="category-list-container">
+                <img src="{% static 'foodie_app/images/rice_ball.png' %}" alt="Image1">
+                <div>
+                    <span>{{ ramen.name }} {{ ramen.shop }} {{ ramen.typicalMealTime }} {{ ramen.avgRating }} {{ ramen.numberOfVotes }}</span>
+                    <span>{{ ramen.description }}</span>
+                </div>
+            </li>
+        {% empty %}
+            <li>No Items found.</li>
+        {% endfor %}
+    </ul>
+{% endblock %}
 
