@@ -1,21 +1,24 @@
 from .models import Ramen
 
-def fetch_all_shoyu_ramen():
-    
-    ramens = Ramen.objects.all()
-    return ramens
 
-def fetch_afternoon_foods():
-    return
 
-def fetch_evening_foods():
-    return
+def fetch_ramen_type_list(ramen_type: str):
 
-def fetch_recently_added_foods():
-    return
+    ramen_list = Ramen.objects.filter(ramenType=ramen_type)
+
+    return ramen_list[:3]
+
+def fetch_recently_added_list():
+
+    ramen_list = Ramen.objects.order_by('-dateAdded')[:3]
+
+    return ramen_list
 
 def fetch_top_rated_foods():
-    return
+    
+    ramen_list = Ramen.objects.order_by('-avgRating')[:3]
+
+    return ramen_list
 
 def save_ramen(request):
     name = request.POST.get('name')

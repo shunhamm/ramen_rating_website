@@ -26,7 +26,13 @@ class Ramen(models.Model):
     avgRating = models.FloatField(default=0)
     numberOfVotes = models.IntegerField(default=0)
 
+    def __str__(self):
+        return self.shop
+
 class MealRating(models.Model):
     ramen_id = models.ForeignKey(Ramen, on_delete=models.CASCADE, default=1)
     rating = models.FloatField(validators=[MinValueValidator(0.0), MaxValueValidator(5.0)])
     dateOfRating = models.DateTimeField(default=timezone.now)
+
+    def __str__(self):
+        return self.ramen_id
