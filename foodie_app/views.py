@@ -19,27 +19,33 @@ def home(request):
 
     return render(request, "home.html")
 
-def shoyu_ramen(request):
+def ramen_type_view(request, ramen_type):
 
-    shoyu_ramen = utils.fetch_all_shoyu_ramen()
-    context = {'ramens': shoyu_ramen[:3], 'ramen_type': shoyu_ramen[0].ramenType, }
+    ramen_list = utils.fetch_ramen_type_list(ramen_type)
+    context = {'ramen_list': ramen_list, 'category': ramen_type }
 
     return render(request, "category_list_page.html", context)
 
-def miso_ramen(request):
-    pass
+def recently_added_view(request):
+    
+    ramen_list = utils.fetch_recently_added_list()
+    context = {'ramens_list': ramen_list, 'category': "Recent Ramen Additions"}
 
-def tonkotsu_ramen(request):
-    pass
+    return render(request, "category_list_page.html", context)
 
-def recently_added(request):
-    pass
+def top_rated_view(request):
+    
+    ramen_list = utils.fetch_top_rated_list()
+    context = {'ramens_list': ramen_list, 'category': "Top Rated Ramen"}
 
-def top_rated(request):
-    pass
+    return render(request, "category_list_page.html", context)
 
-def ramen_detail(request):
-    pass
+# def ramen_detail_view(request, pk):
+
+#     ramen = utils.fetch_ramen_detail(pk)
+#     context = {'ramen': ramen, 'shop': ramen.shop}
+
+#     return render(request, "ramen_detail_page.html", context)
 
 def submit_ramen(request):
 
