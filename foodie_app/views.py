@@ -29,14 +29,14 @@ def ramen_type_view(request, ramen_type):
 def recently_added_view(request):
     
     ramen_list = utils.fetch_recently_added_list()
-    context = {'ramens_list': ramen_list, 'category': "Recent Ramen Additions"}
+    context = {'ramen_list': ramen_list, 'category': "Recent Ramen Additions"}
 
     return render(request, "category_list_page.html", context)
 
 def top_rated_view(request):
     
     ramen_list = utils.fetch_top_rated_list()
-    context = {'ramens_list': ramen_list, 'category': "Top Rated Ramen"}
+    context = {'ramen_list': ramen_list, 'category': "Top Rated Ramen"}
 
     return render(request, "category_list_page.html", context)
 

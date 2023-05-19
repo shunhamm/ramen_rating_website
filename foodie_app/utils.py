@@ -4,9 +4,9 @@ from .models import Ramen
 
 def fetch_ramen_type_list(ramen_type: str):
 
-    ramen_list = Ramen.objects.filter(ramenType=ramen_type)
+    ramen_list = Ramen.objects.filter(ramenType=ramen_type)[:3]
 
-    return ramen_list[:3]
+    return ramen_list
 
 def fetch_recently_added_list():
 
