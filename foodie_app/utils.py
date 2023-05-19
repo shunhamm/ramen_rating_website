@@ -14,7 +14,7 @@ def fetch_recently_added_list():
 
     return ramen_list
 
-def fetch_top_rated_foods():
+def fetch_top_rated_list():
     
     ramen_list = Ramen.objects.order_by('-avgRating')[:3]
 
