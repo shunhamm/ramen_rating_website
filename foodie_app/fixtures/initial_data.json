@@ -4,14 +4,16 @@
 		"pk":1, 
 		"fields" : 
 			{
-				"name": "Ituki",
+				"name": "",
 				"description": "Tsukemen",
-				"imageUrl": "1.jpeg",
-				"ramenType": "shoyu",
-				"shop": "England",
+				"imageUrl": "foodie_app/images/shoyu/駄目な隣人.jpg",
+				"ramenType": "Shoyu",
+				"shop": "Homemade Ramen 麦苗",
 				"address": "Tokyo",
 				"typicalMealTime": "morning",
-				"dateAdded": "2011-05-05T02:12:01+00:00"	
+				"dateAdded": "2011-05-05T02:12:01+00:00",	
+				"avgRating": 2.0,
+				"numberOfVotes": 3
 			}
 	},
 	{
@@ -19,14 +21,16 @@
 		"pk":2, 
 		"fields" : 
 			{
-				"name": "Hayasida",
+				"name": "",
 				"description": "Chicken soup",
-				"imageUrl": "2.jpeg",
-				"ramenType": "shoyu",
-                "shop": "Belgium",
+				"imageUrl": "foodie_app/images/shoyu/圓.jpg",
+				"ramenType": "Shoyu",
+                "shop": "煮干鰮らーめん 圓",
                 "address": "Tokyo",
 				"typicalMealTime": "morning",
-				"dateAdded": "2013-11-22T20:27:23+00:00"	
+				"dateAdded": "2013-11-22T20:27:23+00:00",
+				"avgRating": 2.2,
+				"numberOfVotes": 5
 			}
 	},
 	{
@@ -34,14 +38,16 @@
 		"pk":3, 
 		"fields" : 
 			{
-				"name": "Damenarinjin",
+				"name": "",
 				"description": "Bouillion soup",
-				"imageUrl": "3.jpeg",
-				"ramenType": "shoyu",
-				"shop": "Greece",
+				"imageUrl": "foodie_app/images/shoyu/駄目な隣人.jpg",
+				"ramenType": "Shoyu",
+				"shop": "駄目な隣人 新宿店",
 				"address": "Tokyo",
 				"typicalMealTime": "morning",
-				"dateAdded": "2011-09-10T19:00:48+00:00"
+				"dateAdded": "2011-09-10T19:00:48+00:00",
+				"avgRating": 1.8,
+				"numberOfVotes": 1
 			}
 	},
 	{
@@ -49,14 +55,16 @@
 		"pk":4, 
 		"fields" : 
 			{
-				"name": "Miso1",
+				"name": "",
 				"description": "test",
-				"imageUrl": "1.jpeg",
-				"ramenType": "miso",
-				"shop": "miso1",
+				"imageUrl": "foodie_app/images/miso/味噌っ子 ふっく.jpg",
+				"ramenType": "Miso",
+				"shop": "味噌っ子 ふっく",
 				"address": "Tokyo",
 				"typicalMealTime": "morning",
-				"dateAdded": "2021-05-07T02:12:01+00:00"	
+				"dateAdded": "2021-05-07T02:12:01+00:00",
+				"avgRating": 3.0,
+				"numberOfVotes": 20
 			}
 	},
 	{
@@ -64,14 +72,16 @@
 		"pk":5, 
 		"fields" : 
 			{
-				"name": "miso2",
+				"name": "",
 				"description": "test2",
-				"imageUrl": "1.jpeg",
-				"ramenType": "miso",
-				"shop": "miso2",
+				"imageUrl": "foodie_app/images/miso/カラシビ味噌らー麺 鬼金棒 神田本店.jpg",
+				"ramenType": "Miso",
+				"shop": "カラシビ味噌らー麺 鬼金棒 神田本店",
 				"address": "Tokyo",
 				"typicalMealTime": "morning",
-				"dateAdded": "2031-04-21T02:12:01+00:00"	
+				"dateAdded": "2031-04-21T02:12:01+00:00",
+				"avgRating": 2.4,
+				"numberOfVotes": 1.7
 			}
 	},
 	{
@@ -79,14 +89,16 @@
 		"pk":6, 
 		"fields" : 
 			{
-				"name": "miso3",
+				"name": "",
 				"description": "test3",
-				"imageUrl": "1.jpeg",
-				"ramenType": "miso",
-				"shop": "miso3",
+				"imageUrl": "foodie_app/images/miso/東京味噌らーめん 鶉.jpg",
+				"ramenType": "Miso",
+				"shop": "東京味噌らーめん 鶉",
 				"address": "Tokyo",
 				"typicalMealTime": "morning",
-				"dateAdded": "2015-12-04T02:12:01+00:00"	
+				"dateAdded": "2015-12-04T02:12:01+00:00",
+				"avgRating": 2.8,
+				"numberOfVotes": 20	
 			}
 	},
 	{
@@ -94,14 +106,16 @@
 		"pk":7, 
 		"fields" : 
 			{
-				"name": "tonkotsu1",
+				"name": "",
 				"description": "test",
-				"imageUrl": "1.jpeg",
-				"ramenType": "tonkotsu",
-				"shop": "tonkotsu1",
+				"imageUrl": "foodie_app/images/tonkotsu/豚骨醤油ラーメン 王道家 柏店.jpg",
+				"ramenType": "Tonkotsu",
+				"shop": "豚骨醤油ラーメン 王道家 柏店",
 				"address": "Tokyo",
 				"typicalMealTime": "morning",
-				"dateAdded": "2010-04-22T02:12:01+00:00"	
+				"dateAdded": "2010-04-22T02:12:01+00:00",
+				"avgRating": 2.4,
+				"numberOfVotes": 6	
 			}
 	},
 	{
@@ -109,14 +123,16 @@
 		"pk":8, 
 		"fields" : 
 			{
-				"name": "tonkotsu2",
+				"name": "",
 				"description": "test",
-				"imageUrl": "1.jpeg",
-				"ramenType": "tonkotsu",
-				"shop": "tonkotsu2",
+				"imageUrl": "foodie_app/images/tonkotsu/豚骨まぜそば KOZOU+.jpg",
+				"ramenType": "Tonkotsu",
+				"shop": "豚骨まぜそば KOZOU+",
 				"address": "Tokyo",
 				"typicalMealTime": "morning",
-				"dateAdded": "2011-02-20T02:12:01+00:00"	
+				"dateAdded": "2011-02-20T02:12:01+00:00",
+				"avgRating": 2.9,
+				"numberOfVotes": 20
 			}
 	},
 	{
@@ -124,14 +140,16 @@
 		"pk":9, 
 		"fields" : 
 			{
-				"name": "tonkotsu3",
+				"name": "",
 				"description": "test",
-				"imageUrl": "1.jpeg",
-				"ramenType": "tonkotsu",
-				"shop": "tonkotsu3",
+				"imageUrl": "foodie_app/images/tonkotsu/豚骨ラー麺 ごん太.jpg",
+				"ramenType": "Tonkotsu",
+				"shop": "豚骨ラー麺 ごん太",
 				"address": "Tokyo",
 				"typicalMealTime": "morning",
-				"dateAdded": "2020-05-19T02:12:01+00:00"	
+				"dateAdded": "2020-05-19T02:12:01+00:00",
+				"avgRating": 3.2,
+				"numberOfVotes": 30
 			}
 	}
 ]
