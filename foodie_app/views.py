@@ -4,20 +4,20 @@ from . import utils
 
 def home(request):
 
-    # morning_foods = utils.fetch_morning_foods()
-    # afternoon_foods = utils.fetch_afternoon_foods()
-    # evening_foods = utils.fetch_evening_foods()
-    # recently_added_foods = utils.fetch_recently_added_foods()
-    # top_rated_foods = utils.fetch_top_rated_foods
+    shoyu_ramen_list = utils.fetch_ramen_type_list('Shoyu')
+    miso_ramen_list = utils.fetch_ramen_type_list('Miso')
+    tonkotsu_ramen_list = utils.fetch_ramen_type_list('Tonkotsu')
+    recently_added_list = utils.fetch_recently_added_list()
+    top_rated_list = utils.fetch_top_rated_list()
 
-    # context = {'morning_foods': morning_foods, 
-    #            'afternoon_foods': afternoon_foods,
-    #            'evening_foods': evening_foods,
-    #            'recently_added_foods':  recently_added_foods,
-    #            'top_rated_foods': top_rated_foods
-    #            }
+    context = {'shoyu_ramen_list': shoyu_ramen_list, 
+               'miso_ramen_list': miso_ramen_list,
+               'tonkotsu_ramen_list': tonkotsu_ramen_list,
+               'recently_added_list': recently_added_list,
+               'top_rated_list': top_rated_list
+               }
 
-    return render(request, "home.html")
+    return render(request, "home.html", context)
 
 def ramen_type_view(request, ramen_type):
 
